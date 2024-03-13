@@ -31,7 +31,7 @@ const handleButtonClick = (e) => {
 buttons.forEach((btn) => { 
   btn.addEventListener('click', handleButtonClick);
 })
-document.addEventListener('DOMContentLoaded', function() {
+/*document.addEventListener('DOMContentLoaded', function() {
   const button = document.querySelector('.contact-me');
   button.addEventListener('click', function() {
       const recipientEmail = "levicoc35@gmail.com";
@@ -46,4 +46,4 @@ document.addEventListener('DOMContentLoaded', function() {
       // Open the mailto link in a new tab/window
       window.open(mailtoLink, '_blank');
   });
-});
+});*/
